@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <form action="/score" method="post">
+        <text>Insert two strings to compare</text> <br>
+        <input name="string1" type="text"> <input name="string2" type="text"><br>
+        <button type="submit">Score</button>
+    </form>
+
+{% endblock %}
